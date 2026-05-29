@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
-import { TreePine, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
